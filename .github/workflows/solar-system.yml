@@ -74,7 +74,6 @@ jobs:
 
   docker: 
     permissions:
-      contents: read
       packages: write
     name: docker
     runs-on: ubuntu-latest
